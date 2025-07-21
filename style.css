@@ -56,12 +56,17 @@ img {
 }
 
 .button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    justify-items: center;
+    margin-top: 20px;
     border: 2px solid white;
     padding: 10px;
     text-decoration: none;
     color: white;
     border-radius: 10px;
-
+    max-width: 300px;
 }
 
 .button:hover {
